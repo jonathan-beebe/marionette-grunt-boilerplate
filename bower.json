@@ -1,0 +1,31 @@
+{
+  "name": "grunt-test",
+  "version": "0.0.0",
+  "authors": [
+    "Jon Beebe <somethingkindawierd@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "almond": "~0.2.9",
+    "backbone-localstorage": "~0.3.1",
+    "backbone.localstorage": "~1.1.7",
+    "backbone.marionette": "~1.6.4",
+    "backbone": "~1.1.0",
+    "bootstrap": "~3.1.0",
+    "jquery": "~2.0.3",
+    "lodash": "~2.4.1",
+    "requirejs": "~2.1.10"
+  },
+  "resolutions": {
+    "jquery": "~2.0.3"
+  }
+}
